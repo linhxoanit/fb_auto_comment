@@ -1,0 +1,4 @@
+{
+  "public": "src",
+  "rewrite": "src/connect/index.html"
+}
