@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server -a localhost -p 8080"
+    "start": "http-server -a localhost -p 8080",
+    "ngrok": "node .\\ngrok.js"
   },
   "dependencies": {
     "facebook-js-sdk": "0.3.4",
-    "http-server": "14.1.1"
+    "http-server": "14.1.1",
+    "ngrok": "^5.0.0-beta.2"
   },
   "keywords": [],
   "author": "",

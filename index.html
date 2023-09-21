@@ -7,13 +7,14 @@
 
     <!-- Include the Facebook SDK for JavaScript -->
     <script>
-
+        const appSecret = '13ae4d829eba9f8d771a8875ca0385bc';
+        const appId = '3593112904254172';
         window.fbAsyncInit = function() {
             FB.init({
                 appId      : '3593112904254172',
                 cookie     : true,
                 xfbml      : true,
-                version    : 'v13.0'
+                version    : 'v18.0'
             });
 
             FB.AppEvents.logPageView();
@@ -45,7 +46,7 @@
      data-auto-logout-link="false"
      data-use-continue-as="false"
      onlogin="checkLoginState()"
-     >
+>
 </div>
 
 <!-- Your content can go here -->
