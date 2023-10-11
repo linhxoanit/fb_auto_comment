@@ -1,4 +1,4 @@
-const ngrok = require('ngrok');
+import ngrok from 'ngrok';
 
 // Your Node.js server setup code here
 

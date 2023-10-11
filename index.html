@@ -5,20 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook Login Example</title>
 
-    <!-- Include the Facebook SDK for JavaScript -->
-    <script src="/script/login.js" type="text/javascript"></script>
+
 </head>
 <body>
 <!-- Facebook Login Button -->
-<div class="fb-login-button"
-     data-max-rows="1"
-     data-size="large"
-     data-button-type="continue_with"
-     data-show-faces="false"
-     data-auto-logout-link="false"
-     data-use-continue-as="false"
-     onlogin="checkLoginState()"
->
+<button id="login-button">Login Facebook</button>
 </div>
 <div
     class="fb-like"
@@ -32,5 +23,11 @@
 <p>Please log in with Facebook to access more features.</p>
 
 <!-- Your JavaScript code can go here -->
+<!-- Include the Facebook SDK for JavaScript -->
+
+<script type="module" src="/script/login.js"></script>
+<script type="module" src="/script/profileInfo.js"></script>
+<!--<script src="/script/constant.js" type="text/javascript" ></script>-->
+<!--<script src="/script/profileInfo.js" type="text/javascript" ></script>-->
 </body>
 </html>
